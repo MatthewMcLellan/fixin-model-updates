@@ -1,3 +1,6 @@
 # Everything here is served byte-for-byte: the catalog is signed, and model
 # files are named by their SHA-256. Never let git rewrite line endings.
 * -text
+
+# GitHub reads *.sig as Standard ML source; these are signatures, not code.
+*.sig linguist-detectable=false

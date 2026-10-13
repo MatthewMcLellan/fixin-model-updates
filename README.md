@@ -1,66 +1,54 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/fixin-wordmark-white.svg">
-    <img src=".github/assets/fixin-wordmark-black.svg" alt="fixin" width="260">
-  </picture>
-</p>
-
-<h3 align="center">Model updates</h3>
-
-<p align="center">
-  Signed, over-the-air diagnosis engine updates for the fixin app on iOS and Android.
+  <img src=".github/assets/readme-banner.png" width="100%" alt="fixin model updates: signed over-the-air diagnosis engines for the fixin app. Ruby 3.9, Sapphire 4.3, Sapphire 4.8, Emerald 5.0 and Emerald 5.3.">
 </p>
 
 <p align="center">
   <a href="models/fixin/catalog.json"><img alt="iOS catalog last updated" src="https://img.shields.io/github/last-commit/MatthewMcLellan/fixin-model-updates/main?path=models%2Ffixin%2Fcatalog.json&label=iOS%20catalog%20updated&color=3E48DA&style=flat-square&logo=apple"></a>
   <a href="models/fixin/android/catalog.json"><img alt="Android catalog last updated" src="https://img.shields.io/github/last-commit/MatthewMcLellan/fixin-model-updates/main?path=models%2Ffixin%2Fandroid%2Fcatalog.json&label=Android%20catalog%20updated&color=3E48DA&style=flat-square&logo=android&logoColor=white"></a>
   <a href="#verify-a-catalog-yourself"><img alt="Catalogs signed with Ed25519" src="https://img.shields.io/badge/signed-Ed25519-3E48DA?style=flat-square"></a>
+  <a href="#how-an-engine-reaches-a-phone"><img alt="Every file SHA-256 verified" src="https://img.shields.io/badge/files-SHA--256%20verified-3E48DA?style=flat-square"></a>
+</p>
+
+<p align="center">
+  <a href="https://apps.apple.com/us/app/fixin/id6755448308"><b>fixin for iPhone</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://play.google.com/store/apps/details?id=com.fixin.android"><b>fixin for Android</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://amsolutions-sea.com/fixin"><b>amsolutions-sea.com/fixin</b></a>
 </p>
 
 ---
 
-## What this is
+fixin diagnoses car, home and boat problems from a photo, using machine-learning models that run on the phone. Each set of models is an **engine**, named for a gem and a version: the gem marks the generation and the number is the release.
 
-fixin diagnoses car, home and boat problems from a photo, using machine-learning models that run on the phone. Each set of models is an *engine*, named for a gem and a version, like Sapphire 4.8 or Emerald 5.0.
+This repo delivers new engines to phones between app releases. It holds only what the app downloads: a signed catalog for each platform and the model files it lists. Nothing here runs on its own, and you don't need anything from it to use fixin.
 
-This repo is how new engines reach phones between app releases. The app checks here, and downloads an engine when one is on offer for your plan and app version. Nothing in here runs on its own, and you don't need anything from it to use fixin.
+> [!NOTE]
+> **The catalogs are empty for now, on purpose.** Every current engine ships inside the app, so the first engine published here will be a retrained one. Support for this mirror is rolling out in app updates; earlier builds get updates from the fixin server only.
 
-**Looking for the app?** Get [fixin for iPhone](https://apps.apple.com/us/app/fixin/id6755448308) or [fixin for Android](https://play.google.com/store/apps/details?id=com.fixin.android), or read more at [amsolutions-sea.com/fixin](https://amsolutions-sea.com/fixin).
+## How an engine reaches a phone
 
-## How an update reaches a phone
+<p align="center">
+  <img src=".github/assets/how-updates-reach-a-phone.png" width="100%" alt="Diagram. The publisher signs the catalog with Ed25519 and names every file by its SHA-256, then pushes to this repo. GitHub, the jsDelivr CDN copy and the fixin server can each serve the files. On the phone, three checks must pass before anything installs: the signature matches the key built into the app, the catalog is no older than the last one accepted, and every file matches its SHA-256. If any check fails, nothing installs.">
+</p>
 
-```mermaid
-flowchart TD
-    pub["Publisher signs the catalog"] -->|"one commit: files + catalog"| repo["This repo"]
-    repo --> gh["1 · GitHub"]
-    repo --> cdn["2 · jsDelivr CDN"]
-    srv["3 · fixin server"]
-    gh & cdn & srv --> app["fixin app checks the catalog:<br/>signed by fixin, and newer than the last one?"]
-    app -->|yes| dl["Downloads each file<br/>and checks its SHA-256"]
-    app -->|no| skip["Ignores it and<br/>tries the next source"]
-    dl --> inst["Installs the engine,<br/>all or nothing"]
-```
+The app asks GitHub first, then the jsDelivr copy of this repo, then the fixin server, for the catalog and for each file. A source that's down, or serves a file that fails its check, is skipped for the next one. Any of the three can serve the files, because the phone trusts only what the signature and the hashes vouch for:
 
-The app tries the three sources in order, for the catalog and for each file. A source that's down or serves a bad copy is skipped. Three checks make it safe to take files from any of them:
+1. **Signed.** The app reads a catalog only when `catalog.json.sig` is a valid Ed25519 signature over its exact bytes, made with the private half of a key built into the app. That key never leaves the publisher's machine, so an edited catalog fails everywhere.
+2. **Never older.** Each catalog records when it was signed, and the app refuses one older than the last it accepted, so an out-of-date copy can't roll a phone back to an older engine.
+3. **Every file checked.** The catalog lists the SHA-256 of every file it names, and each file is stored under that digest. An engine installs only when every one of its files passes, all or nothing.
 
-1. **Signed.** The app reads a catalog only when `catalog.json.sig` is a valid Ed25519 signature over its exact bytes, from a key built into the app. The private key never leaves the publisher's machine, so an edited catalog fails everywhere.
-2. **Never older.** Each catalog records when it was signed, and the app refuses one older than the last it accepted, so an out-of-date copy can't roll a phone back.
-3. **Every file checked.** The catalog lists the SHA-256 of every file it names, and each file is stored under that digest. The app checks each download, and installs an engine only when every one of its files passes.
+## What's in this repo
 
-## What's in here
+<p align="center">
+  <img src=".github/assets/repo-map.png" width="100%" alt="Repo layout. models/fixin/catalog.json lists the engines on offer and every file each one needs, with its SHA-256. models/fixin/catalog.json.sig is the Ed25519 signature over the exact bytes of catalog.json. models/fixin/blobs/sha256/ holds each model file, named by its own SHA-256. models/fixin/android/ holds Android's own catalog and signature. Don't edit by hand: a hand-edited catalog fails its signature, and every device ignores it.">
+</p>
 
-| Path | What it is |
-| --- | --- |
-| [`models/fixin/catalog.json`](models/fixin/catalog.json) | iOS catalog: the engines on offer, who can get them, and every file each one needs |
-| [`models/fixin/android/catalog.json`](models/fixin/android/catalog.json) | Android catalog, in the same format |
-| `catalog.json.sig` next to each catalog | Its Ed25519 signature, base64-encoded |
-| `models/fixin/blobs/sha256/<digest>` | The model files, each named by its SHA-256 and shared by both platforms |
-
-iOS engines are Core ML and Android engines are TensorFlow Lite. They have separate catalogs so each phone downloads only what it can run, but a file that's identical on both is stored once.
+iOS engines are Core ML and Android engines are TensorFlow Lite. Each platform has its own catalog, so a phone downloads only what it can run, and a file that's identical on both is stored once. Browse the [iOS catalog](models/fixin/catalog.json) or the [Android catalog](models/fixin/android/catalog.json).
 
 ## Verify a catalog yourself
 
-You don't need to, since the app does this on every check. If you want to, you'll need OpenSSL 3 or later. The LibreSSL that ships with macOS can't check Ed25519 signatures, so use Homebrew's `openssl`.
+The app does this on every check, so you never need to. If you'd like to, you'll need OpenSSL 3 or later. The LibreSSL that ships with macOS can't check Ed25519 signatures, so use Homebrew's `openssl`.
 
 ```bash
 base=https://raw.githubusercontent.com/MatthewMcLellan/fixin-model-updates/main/models/fixin
@@ -76,7 +64,7 @@ EOF
 openssl pkeyutl -verify -pubin -inkey fixin-models.pub -rawin -in catalog.json -sigfile catalog.sig
 ```
 
-It prints `Signature Verified Successfully`. For the Android catalog, add `/android` to the end of `base`. The key is the one compiled into both apps. If it ever changes, a new app version will ship with the new key before anything is published with it.
+It prints `Signature Verified Successfully`. For the Android catalog, add `/android` to the end of `base`. This is the public key compiled into the app. If it ever changes, an app update will ship the new key before anything is published with it.
 
 <details>
 <summary><b>For maintainers</b></summary>

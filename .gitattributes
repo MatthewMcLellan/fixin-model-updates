@@ -1,0 +1,3 @@
+# Everything here is served byte-for-byte: the catalog is signed, and model
+# files are named by their SHA-256. Never let git rewrite line endings.
+* -text

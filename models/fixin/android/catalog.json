@@ -1,5 +1,174 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T06:21:46Z",
-  "generations": []
+  "generated_at": "2026-10-14T00:17:55Z",
+  "generations": [
+    {
+      "id": "emerald-5.3",
+      "gem_name": "Emerald",
+      "version": "5.3",
+      "tagline": "Recognizes more kinds of problems",
+      "requires_full_model_access": true,
+      "cascade_manifest_name": "routes_v17",
+      "pack": {
+        "content_version": "v4769940980b1",
+        "inherits_bundle_fallback": true,
+        "files": [
+          {
+            "path": "models/vit_manifest.json",
+            "role": "multihead_manifest",
+            "priority": 0,
+            "bytes": 107019,
+            "sha256": "7431c6de2e1543854d3d875e4031754a9beaa8c91dfe4451f43927fe26de6d88",
+            "object_key": "models/fixin/blobs/sha256/7431c6de2e1543854d3d875e4031754a9beaa8c91dfe4451f43927fe26de6d88"
+          },
+          {
+            "path": "models/vit_multihead.tflite",
+            "role": "model",
+            "priority": 1,
+            "bytes": 12006796,
+            "sha256": "411da2679f348a0792441b3886ba8c020b7ad3f62ab077fe3b02a3dc87b2be8a",
+            "object_key": "models/fixin/blobs/sha256/411da2679f348a0792441b3886ba8c020b7ad3f62ab077fe3b02a3dc87b2be8a"
+          },
+          {
+            "path": "routes_v17.json",
+            "role": "cascade_manifest",
+            "priority": 0,
+            "bytes": 15949,
+            "sha256": "a2d67a8b241bfd9e49ebcc6edc06e3adb31f725240ce814be5acdabf3dd04110",
+            "object_key": "models/fixin/blobs/sha256/a2d67a8b241bfd9e49ebcc6edc06e3adb31f725240ce814be5acdabf3dd04110"
+          }
+        ]
+      },
+      "availability": "sapphire_plans",
+      "tint_hex": "#009466",
+      "multi_head_manifest_name": "vit_manifest",
+      "min_app_version": "1.5.2"
+    },
+    {
+      "id": "emerald-5.2",
+      "gem_name": "Emerald",
+      "version": "5.2",
+      "tagline": "Better at telling types of problem apart",
+      "requires_full_model_access": true,
+      "cascade_manifest_name": "routes_v17",
+      "pack": {
+        "content_version": "vbaed5c762815",
+        "inherits_bundle_fallback": true,
+        "files": [
+          {
+            "path": "models/vit_manifest.json",
+            "role": "multihead_manifest",
+            "priority": 0,
+            "bytes": 111370,
+            "sha256": "4b5fb30dfe81d9936cda7bd0ad549105e7eccedf83b21d0299defe4ef00ff35e",
+            "object_key": "models/fixin/blobs/sha256/4b5fb30dfe81d9936cda7bd0ad549105e7eccedf83b21d0299defe4ef00ff35e"
+          },
+          {
+            "path": "models/vit_multihead.tflite",
+            "role": "model",
+            "priority": 1,
+            "bytes": 12006796,
+            "sha256": "7ebc66f0c38291d07187fadb0546a3bf45d57cea480f98e4dc8d345c8c93a17f",
+            "object_key": "models/fixin/blobs/sha256/7ebc66f0c38291d07187fadb0546a3bf45d57cea480f98e4dc8d345c8c93a17f"
+          },
+          {
+            "path": "routes_v17.json",
+            "role": "cascade_manifest",
+            "priority": 0,
+            "bytes": 15949,
+            "sha256": "a2d67a8b241bfd9e49ebcc6edc06e3adb31f725240ce814be5acdabf3dd04110",
+            "object_key": "models/fixin/blobs/sha256/a2d67a8b241bfd9e49ebcc6edc06e3adb31f725240ce814be5acdabf3dd04110"
+          }
+        ]
+      },
+      "availability": "sapphire_plans",
+      "tint_hex": "#009466",
+      "multi_head_manifest_name": "vit_manifest",
+      "min_app_version": "1.5.2"
+    },
+    {
+      "id": "emerald-5.0",
+      "gem_name": "Emerald",
+      "version": "5.0",
+      "tagline": "Recognizes more kinds of problems",
+      "requires_full_model_access": true,
+      "cascade_manifest_name": "routes_v17",
+      "pack": {
+        "content_version": "v053dcf72d364",
+        "inherits_bundle_fallback": true,
+        "files": [
+          {
+            "path": "models/vit_manifest.json",
+            "role": "multihead_manifest",
+            "priority": 0,
+            "bytes": 112650,
+            "sha256": "9ac84741efa5a933740413fd9f41b1a18760e5a19a7d45b4bc3481aadaab2db2",
+            "object_key": "models/fixin/blobs/sha256/9ac84741efa5a933740413fd9f41b1a18760e5a19a7d45b4bc3481aadaab2db2"
+          },
+          {
+            "path": "models/vit_multihead.tflite",
+            "role": "model",
+            "priority": 1,
+            "bytes": 12032604,
+            "sha256": "5acf2beb27ee018ba7d2e849813af328a1be1532930698cddb542352033cdd5b",
+            "object_key": "models/fixin/blobs/sha256/5acf2beb27ee018ba7d2e849813af328a1be1532930698cddb542352033cdd5b"
+          },
+          {
+            "path": "routes_v17.json",
+            "role": "cascade_manifest",
+            "priority": 0,
+            "bytes": 15949,
+            "sha256": "a2d67a8b241bfd9e49ebcc6edc06e3adb31f725240ce814be5acdabf3dd04110",
+            "object_key": "models/fixin/blobs/sha256/a2d67a8b241bfd9e49ebcc6edc06e3adb31f725240ce814be5acdabf3dd04110"
+          }
+        ]
+      },
+      "availability": "sapphire_plans",
+      "tint_hex": "#009466",
+      "multi_head_manifest_name": "vit_manifest",
+      "min_app_version": "1.5.2"
+    },
+    {
+      "id": "sapphire-4.8",
+      "gem_name": "Sapphire",
+      "version": "4.8",
+      "tagline": "Better at telling types of problem apart",
+      "requires_full_model_access": true,
+      "cascade_manifest_name": "routes_v17",
+      "pack": {
+        "content_version": "v3c03c53b01fd",
+        "inherits_bundle_fallback": true,
+        "files": [
+          {
+            "path": "models/vit_manifest.json",
+            "role": "multihead_manifest",
+            "priority": 0,
+            "bytes": 100991,
+            "sha256": "9ca572c78d48f04b2dfe0718dcd6309e5425a4c6ce9c401ce07ff67ab259cbf0",
+            "object_key": "models/fixin/blobs/sha256/9ca572c78d48f04b2dfe0718dcd6309e5425a4c6ce9c401ce07ff67ab259cbf0"
+          },
+          {
+            "path": "models/vit_multihead.tflite",
+            "role": "model",
+            "priority": 1,
+            "bytes": 11768556,
+            "sha256": "7effe730d649b84099f50cec1657d7ef4aa407569607f4db52d88c7b817897eb",
+            "object_key": "models/fixin/blobs/sha256/7effe730d649b84099f50cec1657d7ef4aa407569607f4db52d88c7b817897eb"
+          },
+          {
+            "path": "routes_v17.json",
+            "role": "cascade_manifest",
+            "priority": 0,
+            "bytes": 15949,
+            "sha256": "a2d67a8b241bfd9e49ebcc6edc06e3adb31f725240ce814be5acdabf3dd04110",
+            "object_key": "models/fixin/blobs/sha256/a2d67a8b241bfd9e49ebcc6edc06e3adb31f725240ce814be5acdabf3dd04110"
+          }
+        ]
+      },
+      "availability": "sapphire_plans",
+      "tint_hex": "#1A5CDB",
+      "multi_head_manifest_name": "vit_manifest",
+      "min_app_version": "1.5.2"
+    }
+  ]
 }

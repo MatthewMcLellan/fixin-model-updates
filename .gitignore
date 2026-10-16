@@ -1,0 +1,30 @@
+# This repo is public. Only what the mirror publishes belongs under models/:
+# the two signed catalogs and the content-addressed blob store. Everything else
+# there (working copies of models, label files, keys) is ignored, so the
+# publisher's `git add models/fixin` can't sweep it in.
+/models/*
+!/models/fixin/
+/models/fixin/*
+!/models/fixin/catalog.json
+!/models/fixin/catalog.json.sig
+!/models/fixin/blobs/
+!/models/fixin/android/
+/models/fixin/android/*
+!/models/fixin/android/catalog.json
+!/models/fixin/android/catalog.json.sig
+
+# Never commit a key or an unpublished model file anywhere, even if re-included
+# above. Blobs are named by digest, with no extension, so these never match one.
+*.mlmodelkey
+*.key
+*.pem
+*.p8
+*.p12
+*.mlmodel
+*.mlpackage/
+*.mlmodelc/
+*.tflite
+*.enc
+*.zip
+
+.DS_Store

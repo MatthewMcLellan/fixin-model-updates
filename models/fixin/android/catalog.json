@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T00:17:55Z",
+  "generated_at": "2026-10-18T02:25:16Z",
   "generations": [
     {
       "id": "emerald-5.3",
@@ -10,24 +10,24 @@
       "requires_full_model_access": true,
       "cascade_manifest_name": "routes_v17",
       "pack": {
-        "content_version": "v4769940980b1",
+        "content_version": "v7119c6ed0d6c",
         "inherits_bundle_fallback": true,
         "files": [
           {
             "path": "models/vit_manifest.json",
             "role": "multihead_manifest",
             "priority": 0,
-            "bytes": 107019,
-            "sha256": "7431c6de2e1543854d3d875e4031754a9beaa8c91dfe4451f43927fe26de6d88",
-            "object_key": "models/fixin/blobs/sha256/7431c6de2e1543854d3d875e4031754a9beaa8c91dfe4451f43927fe26de6d88"
+            "bytes": 111380,
+            "sha256": "3f66ae1b54fc8d94b80cc2cbe3ff6dcfb2887f464fa0a43d1e6681905455a513",
+            "object_key": "models/fixin/blobs/sha256/3f66ae1b54fc8d94b80cc2cbe3ff6dcfb2887f464fa0a43d1e6681905455a513"
           },
           {
             "path": "models/vit_multihead.tflite",
             "role": "model",
             "priority": 1,
-            "bytes": 12006796,
-            "sha256": "411da2679f348a0792441b3886ba8c020b7ad3f62ab077fe3b02a3dc87b2be8a",
-            "object_key": "models/fixin/blobs/sha256/411da2679f348a0792441b3886ba8c020b7ad3f62ab077fe3b02a3dc87b2be8a"
+            "bytes": 23062637,
+            "sha256": "3601428916ed8f50a44029c90a155332d0370c07f3982a7d34f11a904a2132e5",
+            "object_key": "models/fixin/blobs/sha256/3601428916ed8f50a44029c90a155332d0370c07f3982a7d34f11a904a2132e5"
           },
           {
             "path": "routes_v17.json",
@@ -42,7 +42,7 @@
       "availability": "sapphire_plans",
       "tint_hex": "#009466",
       "multi_head_manifest_name": "vit_manifest",
-      "min_app_version": "1.5.2"
+      "min_app_version": "1.5.3"
     },
     {
       "id": "emerald-5.2",
@@ -52,7 +52,7 @@
       "requires_full_model_access": true,
       "cascade_manifest_name": "routes_v17",
       "pack": {
-        "content_version": "vbaed5c762815",
+        "content_version": "v8a050e3824b1",
         "inherits_bundle_fallback": true,
         "files": [
           {
@@ -67,9 +67,9 @@
             "path": "models/vit_multihead.tflite",
             "role": "model",
             "priority": 1,
-            "bytes": 12006796,
-            "sha256": "7ebc66f0c38291d07187fadb0546a3bf45d57cea480f98e4dc8d345c8c93a17f",
-            "object_key": "models/fixin/blobs/sha256/7ebc66f0c38291d07187fadb0546a3bf45d57cea480f98e4dc8d345c8c93a17f"
+            "bytes": 12006837,
+            "sha256": "5d9e3672bf4b404571857bff895d6de981738cdfff4f37c23ac9974c33938827",
+            "object_key": "models/fixin/blobs/sha256/5d9e3672bf4b404571857bff895d6de981738cdfff4f37c23ac9974c33938827"
           },
           {
             "path": "routes_v17.json",
@@ -84,7 +84,7 @@
       "availability": "sapphire_plans",
       "tint_hex": "#009466",
       "multi_head_manifest_name": "vit_manifest",
-      "min_app_version": "1.5.2"
+      "min_app_version": "1.5.3"
     },
     {
       "id": "emerald-5.0",
@@ -94,7 +94,7 @@
       "requires_full_model_access": true,
       "cascade_manifest_name": "routes_v17",
       "pack": {
-        "content_version": "v053dcf72d364",
+        "content_version": "vbf756f7c7c67",
         "inherits_bundle_fallback": true,
         "files": [
           {
@@ -109,9 +109,9 @@
             "path": "models/vit_multihead.tflite",
             "role": "model",
             "priority": 1,
-            "bytes": 12032604,
-            "sha256": "5acf2beb27ee018ba7d2e849813af328a1be1532930698cddb542352033cdd5b",
-            "object_key": "models/fixin/blobs/sha256/5acf2beb27ee018ba7d2e849813af328a1be1532930698cddb542352033cdd5b"
+            "bytes": 12032645,
+            "sha256": "2f5cb439d72798dc07c759cb496ffbf0d613529856f866dc47b5503f1425af1c",
+            "object_key": "models/fixin/blobs/sha256/2f5cb439d72798dc07c759cb496ffbf0d613529856f866dc47b5503f1425af1c"
           },
           {
             "path": "routes_v17.json",
@@ -126,7 +126,7 @@
       "availability": "sapphire_plans",
       "tint_hex": "#009466",
       "multi_head_manifest_name": "vit_manifest",
-      "min_app_version": "1.5.2"
+      "min_app_version": "1.5.3"
     },
     {
       "id": "sapphire-4.8",
@@ -136,7 +136,7 @@
       "requires_full_model_access": true,
       "cascade_manifest_name": "routes_v17",
       "pack": {
-        "content_version": "v3c03c53b01fd",
+        "content_version": "v3371724fd1a0",
         "inherits_bundle_fallback": true,
         "files": [
           {
@@ -151,9 +151,9 @@
             "path": "models/vit_multihead.tflite",
             "role": "model",
             "priority": 1,
-            "bytes": 11768556,
-            "sha256": "7effe730d649b84099f50cec1657d7ef4aa407569607f4db52d88c7b817897eb",
-            "object_key": "models/fixin/blobs/sha256/7effe730d649b84099f50cec1657d7ef4aa407569607f4db52d88c7b817897eb"
+            "bytes": 11768597,
+            "sha256": "945d973da7dfd3baf3f0889ca6c2800e7b07786a60b53a0a8e936663350d191c",
+            "object_key": "models/fixin/blobs/sha256/945d973da7dfd3baf3f0889ca6c2800e7b07786a60b53a0a8e936663350d191c"
           },
           {
             "path": "routes_v17.json",
@@ -168,7 +168,7 @@
       "availability": "sapphire_plans",
       "tint_hex": "#1A5CDB",
       "multi_head_manifest_name": "vit_manifest",
-      "min_app_version": "1.5.2"
+      "min_app_version": "1.5.3"
     }
   ]
 }

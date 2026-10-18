@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T02:54:14Z",
+  "generated_at": "2026-10-18T03:08:14Z",
   "generations": [
     {
       "id": "emerald-5.3",
@@ -65,7 +65,7 @@
       },
       "tint_hex": "#009466",
       "multi_head_manifest_name": "manifest_emerald_53",
-      "min_app_version": "1.5.2"
+      "min_app_version": "1.5.3"
     },
     {
       "id": "emerald-5.2",
@@ -130,7 +130,7 @@
       },
       "tint_hex": "#009466",
       "multi_head_manifest_name": "manifest_emerald_52",
-      "min_app_version": "1.5.2"
+      "min_app_version": "1.5.3"
     },
     {
       "id": "emerald-5.0",
@@ -195,7 +195,7 @@
       },
       "tint_hex": "#009466",
       "multi_head_manifest_name": "manifest_emerald_50",
-      "min_app_version": "1.5.2"
+      "min_app_version": "1.5.3"
     },
     {
       "id": "sapphire-4.8",
@@ -260,7 +260,7 @@
       },
       "tint_hex": "#1A5CDB",
       "multi_head_manifest_name": "manifest_sapphire_48",
-      "min_app_version": "1.5.2"
+      "min_app_version": "1.5.3"
     }
   ]
 }

@@ -1,5 +1,266 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T05:50:25Z",
-  "generations": []
+  "generated_at": "2026-10-18T02:54:14Z",
+  "generations": [
+    {
+      "id": "emerald-5.3",
+      "gem_name": "Emerald",
+      "version": "5.3",
+      "tagline": "Recognizes more kinds of problems",
+      "requires_full_model_access": true,
+      "cascade_manifest_name": "manifest_v15",
+      "pack": {
+        "content_version": "v13fec6a03528",
+        "inherits_bundle_fallback": true,
+        "files": [
+          {
+            "path": "Emerald_53.mlmodelc/analytics/coremldata.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 4096,
+            "sha256": "be8c844f8e48a5a31183f34fb5730079cebfe1099f9c92d663d579046f8ddff2",
+            "object_key": "models/fixin/blobs/sha256/be8c844f8e48a5a31183f34fb5730079cebfe1099f9c92d663d579046f8ddff2"
+          },
+          {
+            "path": "Emerald_53.mlmodelc/coremldata.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 8192,
+            "sha256": "2453d22d7b027a3e7075acccc5ce700782692d7e95d7a0d4ff1cc88efac62831",
+            "object_key": "models/fixin/blobs/sha256/2453d22d7b027a3e7075acccc5ce700782692d7e95d7a0d4ff1cc88efac62831"
+          },
+          {
+            "path": "Emerald_53.mlmodelc/encryptionInfo/coremldata.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 144,
+            "sha256": "dcc87bca17d6d87612a4b036d5073f41a8815cd350a601daa2925c22173ca800",
+            "object_key": "models/fixin/blobs/sha256/dcc87bca17d6d87612a4b036d5073f41a8815cd350a601daa2925c22173ca800"
+          },
+          {
+            "path": "Emerald_53.mlmodelc/model.mil",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 385024,
+            "sha256": "0c8303d24a55f798c15b35b4a32c55986a536de98d0a7e47d84fb33e4dc7cfbf",
+            "object_key": "models/fixin/blobs/sha256/0c8303d24a55f798c15b35b4a32c55986a536de98d0a7e47d84fb33e4dc7cfbf"
+          },
+          {
+            "path": "Emerald_53.mlmodelc/weights/weight.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 11247616,
+            "sha256": "44ac082c75b41a678b4694aa4c4d70329b60dbba266b32ac813341369abb6f7a",
+            "object_key": "models/fixin/blobs/sha256/44ac082c75b41a678b4694aa4c4d70329b60dbba266b32ac813341369abb6f7a"
+          },
+          {
+            "path": "manifest_emerald_53.json",
+            "role": "multihead_manifest",
+            "priority": 0,
+            "bytes": 103822,
+            "sha256": "2089e3d10ba84e52d2aff8c068ce5048695fde883d4196e08b42fcf2b4dc2760",
+            "object_key": "models/fixin/blobs/sha256/2089e3d10ba84e52d2aff8c068ce5048695fde883d4196e08b42fcf2b4dc2760"
+          }
+        ]
+      },
+      "tint_hex": "#009466",
+      "multi_head_manifest_name": "manifest_emerald_53",
+      "min_app_version": "1.5.2"
+    },
+    {
+      "id": "emerald-5.2",
+      "gem_name": "Emerald",
+      "version": "5.2",
+      "tagline": "Better at telling types of problem apart",
+      "requires_full_model_access": true,
+      "cascade_manifest_name": "manifest_v15",
+      "pack": {
+        "content_version": "v9ce80d3acc2d",
+        "inherits_bundle_fallback": true,
+        "files": [
+          {
+            "path": "Emerald_52.mlmodelc/analytics/coremldata.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 4096,
+            "sha256": "d0c699c0e09b7f984060f269ca01ea06bfb6ffd547a28ed3e85d945752a4b2cb",
+            "object_key": "models/fixin/blobs/sha256/d0c699c0e09b7f984060f269ca01ea06bfb6ffd547a28ed3e85d945752a4b2cb"
+          },
+          {
+            "path": "Emerald_52.mlmodelc/coremldata.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 8192,
+            "sha256": "0c7d39868a8903e763feaa1c9ae1be4283ee54d5fe70c679fb6599cff7041802",
+            "object_key": "models/fixin/blobs/sha256/0c7d39868a8903e763feaa1c9ae1be4283ee54d5fe70c679fb6599cff7041802"
+          },
+          {
+            "path": "Emerald_52.mlmodelc/encryptionInfo/coremldata.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 144,
+            "sha256": "88b70944da64345a554eff925c20e6517448967d5a36bf2e50a81776c2a73c66",
+            "object_key": "models/fixin/blobs/sha256/88b70944da64345a554eff925c20e6517448967d5a36bf2e50a81776c2a73c66"
+          },
+          {
+            "path": "Emerald_52.mlmodelc/model.mil",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 385024,
+            "sha256": "918a5823eabce05608dafa9e2513dc1b211be9a0fea2e04b37ad943c7163c656",
+            "object_key": "models/fixin/blobs/sha256/918a5823eabce05608dafa9e2513dc1b211be9a0fea2e04b37ad943c7163c656"
+          },
+          {
+            "path": "Emerald_52.mlmodelc/weights/weight.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 11247616,
+            "sha256": "be249651294944049d5607f76169f994032a49a1be93a6df17924bc34792e831",
+            "object_key": "models/fixin/blobs/sha256/be249651294944049d5607f76169f994032a49a1be93a6df17924bc34792e831"
+          },
+          {
+            "path": "manifest_emerald_52.json",
+            "role": "multihead_manifest",
+            "priority": 0,
+            "bytes": 103808,
+            "sha256": "649c34a2ffd32cc71f78ffd50cdbb4f6163534d92209cf20276b25695185a7b6",
+            "object_key": "models/fixin/blobs/sha256/649c34a2ffd32cc71f78ffd50cdbb4f6163534d92209cf20276b25695185a7b6"
+          }
+        ]
+      },
+      "tint_hex": "#009466",
+      "multi_head_manifest_name": "manifest_emerald_52",
+      "min_app_version": "1.5.2"
+    },
+    {
+      "id": "emerald-5.0",
+      "gem_name": "Emerald",
+      "version": "5.0",
+      "tagline": "Recognizes more kinds of problems",
+      "requires_full_model_access": true,
+      "cascade_manifest_name": "manifest_v15",
+      "pack": {
+        "content_version": "v92e2a0a391ca",
+        "inherits_bundle_fallback": true,
+        "files": [
+          {
+            "path": "Emerald_50.mlmodelc/analytics/coremldata.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 4096,
+            "sha256": "963070605152c56bfffb383a36baa63d7fe37c8a7ecbd85e0e8f8781ae9fc3cd",
+            "object_key": "models/fixin/blobs/sha256/963070605152c56bfffb383a36baa63d7fe37c8a7ecbd85e0e8f8781ae9fc3cd"
+          },
+          {
+            "path": "Emerald_50.mlmodelc/coremldata.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 8192,
+            "sha256": "644916c1486c1ca2adeb8b7b92eeeddc63d10f8c7427909f9d3aae2705dc9fd3",
+            "object_key": "models/fixin/blobs/sha256/644916c1486c1ca2adeb8b7b92eeeddc63d10f8c7427909f9d3aae2705dc9fd3"
+          },
+          {
+            "path": "Emerald_50.mlmodelc/encryptionInfo/coremldata.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 144,
+            "sha256": "1c096f413f052183316564e7336e419a52a7d30595d057990368da4206e7b43f",
+            "object_key": "models/fixin/blobs/sha256/1c096f413f052183316564e7336e419a52a7d30595d057990368da4206e7b43f"
+          },
+          {
+            "path": "Emerald_50.mlmodelc/model.mil",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 385024,
+            "sha256": "f618ca3f8a1f74ee1762def1700bd7c53ab2b3199d505a621022ff7ebee9ea11",
+            "object_key": "models/fixin/blobs/sha256/f618ca3f8a1f74ee1762def1700bd7c53ab2b3199d505a621022ff7ebee9ea11"
+          },
+          {
+            "path": "Emerald_50.mlmodelc/weights/weight.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 11272192,
+            "sha256": "7018e2081eb81eaefdedd7674db5ca71db6fbff9b182e5e4536beb318269ea56",
+            "object_key": "models/fixin/blobs/sha256/7018e2081eb81eaefdedd7674db5ca71db6fbff9b182e5e4536beb318269ea56"
+          },
+          {
+            "path": "manifest_emerald_50.json",
+            "role": "multihead_manifest",
+            "priority": 0,
+            "bytes": 104963,
+            "sha256": "7f4b3686292368e503fdea4d0a400cbca073be0b0a104f6954f84d99b9c0aac2",
+            "object_key": "models/fixin/blobs/sha256/7f4b3686292368e503fdea4d0a400cbca073be0b0a104f6954f84d99b9c0aac2"
+          }
+        ]
+      },
+      "tint_hex": "#009466",
+      "multi_head_manifest_name": "manifest_emerald_50",
+      "min_app_version": "1.5.2"
+    },
+    {
+      "id": "sapphire-4.8",
+      "gem_name": "Sapphire",
+      "version": "4.8",
+      "tagline": "Better at telling types of problem apart",
+      "requires_full_model_access": true,
+      "cascade_manifest_name": "manifest_v15",
+      "pack": {
+        "content_version": "v6281adf25b35",
+        "inherits_bundle_fallback": true,
+        "files": [
+          {
+            "path": "Sapphire_48.mlmodelc/analytics/coremldata.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 4096,
+            "sha256": "71c7a083604c65daf092b8a29fe206c118dbec61a2abdf2b643765471592b802",
+            "object_key": "models/fixin/blobs/sha256/71c7a083604c65daf092b8a29fe206c118dbec61a2abdf2b643765471592b802"
+          },
+          {
+            "path": "Sapphire_48.mlmodelc/coremldata.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 8192,
+            "sha256": "3300ead15ebda3789130509ce8beb359e0c1159fd28e01768485f4987c43f29d",
+            "object_key": "models/fixin/blobs/sha256/3300ead15ebda3789130509ce8beb359e0c1159fd28e01768485f4987c43f29d"
+          },
+          {
+            "path": "Sapphire_48.mlmodelc/encryptionInfo/coremldata.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 144,
+            "sha256": "01842a60d4693424259831ead522b03d5433e96923bb2dcabc7c6f7cbfe9011e",
+            "object_key": "models/fixin/blobs/sha256/01842a60d4693424259831ead522b03d5433e96923bb2dcabc7c6f7cbfe9011e"
+          },
+          {
+            "path": "Sapphire_48.mlmodelc/model.mil",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 372736,
+            "sha256": "b92d9c54f0469f37345a806553eb1c461dd9b7e1540fdd3ba5376b8efa4d0df0",
+            "object_key": "models/fixin/blobs/sha256/b92d9c54f0469f37345a806553eb1c461dd9b7e1540fdd3ba5376b8efa4d0df0"
+          },
+          {
+            "path": "Sapphire_48.mlmodelc/weights/weight.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 11018240,
+            "sha256": "b5572681be5f5926a02e7dc1ef2c84c86753850ae7c9a741c719ebdae13c0368",
+            "object_key": "models/fixin/blobs/sha256/b5572681be5f5926a02e7dc1ef2c84c86753850ae7c9a741c719ebdae13c0368"
+          },
+          {
+            "path": "manifest_sapphire_48.json",
+            "role": "multihead_manifest",
+            "priority": 0,
+            "bytes": 94096,
+            "sha256": "b4257b140edf8b282ec59c443c1c9dd5a056d0ccee8430f3e6a0cfcc8007056d",
+            "object_key": "models/fixin/blobs/sha256/b4257b140edf8b282ec59c443c1c9dd5a056d0ccee8430f3e6a0cfcc8007056d"
+          }
+        ]
+      },
+      "tint_hex": "#1A5CDB",
+      "multi_head_manifest_name": "manifest_sapphire_48",
+      "min_app_version": "1.5.2"
+    }
+  ]
 }

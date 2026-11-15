@@ -1,7 +1,139 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T03:08:14Z",
+  "generated_at": "2026-11-15T17:45:06Z",
   "generations": [
+    {
+      "id": "amethyst-6.0-mixed",
+      "gem_name": "Amethyst Mixed",
+      "version": "6.0",
+      "tagline": "Trial build: mixed-precision weights",
+      "requires_full_model_access": true,
+      "cascade_manifest_name": "manifest_v15",
+      "pack": {
+        "content_version": "vad1ae0ec83df",
+        "inherits_bundle_fallback": true,
+        "files": [
+          {
+            "path": "Amethyst_60_Mixed.mlmodelc/analytics/coremldata.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 4096,
+            "sha256": "7c7cbd2ad7b245fde1b8cef43c79446ef3a370ef81573cbcdbb701c7f09b229b",
+            "object_key": "models/fixin/blobs/sha256/7c7cbd2ad7b245fde1b8cef43c79446ef3a370ef81573cbcdbb701c7f09b229b"
+          },
+          {
+            "path": "Amethyst_60_Mixed.mlmodelc/coremldata.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 8192,
+            "sha256": "112ad328df6b601d266c960f754e2d01b75400424223d34ca74c2d952a9135f1",
+            "object_key": "models/fixin/blobs/sha256/112ad328df6b601d266c960f754e2d01b75400424223d34ca74c2d952a9135f1"
+          },
+          {
+            "path": "Amethyst_60_Mixed.mlmodelc/encryptionInfo/coremldata.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 144,
+            "sha256": "f31be94964796ad3fa4c5342e4d5d371b61fe2387d705488b389f4670c8d0b32",
+            "object_key": "models/fixin/blobs/sha256/f31be94964796ad3fa4c5342e4d5d371b61fe2387d705488b389f4670c8d0b32"
+          },
+          {
+            "path": "Amethyst_60_Mixed.mlmodelc/model.mil",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 331776,
+            "sha256": "c1497d3fb08f8cd6b00d9b604cb4853337d6164b41fff02883b729075629c996",
+            "object_key": "models/fixin/blobs/sha256/c1497d3fb08f8cd6b00d9b604cb4853337d6164b41fff02883b729075629c996"
+          },
+          {
+            "path": "Amethyst_60_Mixed.mlmodelc/weights/weight.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 47194112,
+            "sha256": "7d49bc800171de439199f45ecf7f64bf4c68191a7d463c4a299d5940933c911e",
+            "object_key": "models/fixin/blobs/sha256/7d49bc800171de439199f45ecf7f64bf4c68191a7d463c4a299d5940933c911e"
+          },
+          {
+            "path": "manifest_amethyst_60_mixed.json",
+            "role": "multihead_manifest",
+            "priority": 0,
+            "bytes": 93223,
+            "sha256": "5fd31f597b42b52d177c14e7e0eff9ad9cc48d9a5e6cd1d1311ba359ff3fafc6",
+            "object_key": "models/fixin/blobs/sha256/5fd31f597b42b52d177c14e7e0eff9ad9cc48d9a5e6cd1d1311ba359ff3fafc6"
+          }
+        ]
+      },
+      "tint_hex": "#A569BD",
+      "availability": "admin_only",
+      "multi_head_manifest_name": "manifest_amethyst_60_mixed",
+      "min_app_version": "1.5.7"
+    },
+    {
+      "id": "amethyst-6.0",
+      "gem_name": "Amethyst",
+      "version": "6.0",
+      "tagline": "Better at telling types of problem apart",
+      "requires_full_model_access": true,
+      "cascade_manifest_name": "manifest_v15",
+      "pack": {
+        "content_version": "vd3aa9be2f539",
+        "inherits_bundle_fallback": true,
+        "files": [
+          {
+            "path": "Amethyst_60.mlmodelc/analytics/coremldata.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 4096,
+            "sha256": "690ee1085e3c63f01e1526fe341c063c2eae1a327382555120139b2e73b5cb11",
+            "object_key": "models/fixin/blobs/sha256/690ee1085e3c63f01e1526fe341c063c2eae1a327382555120139b2e73b5cb11"
+          },
+          {
+            "path": "Amethyst_60.mlmodelc/coremldata.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 8192,
+            "sha256": "e0ece26f4157ff88b4a43e2722d644c4e081c8e49ba7c888ddd28103204b5c2b",
+            "object_key": "models/fixin/blobs/sha256/e0ece26f4157ff88b4a43e2722d644c4e081c8e49ba7c888ddd28103204b5c2b"
+          },
+          {
+            "path": "Amethyst_60.mlmodelc/encryptionInfo/coremldata.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 144,
+            "sha256": "f31be94964796ad3fa4c5342e4d5d371b61fe2387d705488b389f4670c8d0b32",
+            "object_key": "models/fixin/blobs/sha256/f31be94964796ad3fa4c5342e4d5d371b61fe2387d705488b389f4670c8d0b32"
+          },
+          {
+            "path": "Amethyst_60.mlmodelc/model.mil",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 282624,
+            "sha256": "52fac7461734388e9425fdacc5a180fffff8168d13428faa55c3dfa6b36152be",
+            "object_key": "models/fixin/blobs/sha256/52fac7461734388e9425fdacc5a180fffff8168d13428faa55c3dfa6b36152be"
+          },
+          {
+            "path": "Amethyst_60.mlmodelc/weights/weight.bin",
+            "role": "model_part",
+            "priority": 0,
+            "bytes": 46936064,
+            "sha256": "c06eb0a6a5c3555141125bf7bf878d43bf8378c6fa8fd4c467370492383db4e5",
+            "object_key": "models/fixin/blobs/sha256/c06eb0a6a5c3555141125bf7bf878d43bf8378c6fa8fd4c467370492383db4e5"
+          },
+          {
+            "path": "manifest_amethyst_60.json",
+            "role": "multihead_manifest",
+            "priority": 0,
+            "bytes": 93210,
+            "sha256": "aa648c0e8fb401c2a44fed737bdc0222060fb2864aeaff1dc1535169244871df",
+            "object_key": "models/fixin/blobs/sha256/aa648c0e8fb401c2a44fed737bdc0222060fb2864aeaff1dc1535169244871df"
+          }
+        ]
+      },
+      "tint_hex": "#8E44AD",
+      "availability": "admin_only",
+      "multi_head_manifest_name": "manifest_amethyst_60",
+      "min_app_version": "1.5.7"
+    },
     {
       "id": "emerald-5.3",
       "gem_name": "Emerald",

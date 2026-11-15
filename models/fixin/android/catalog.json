@@ -1,7 +1,49 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T02:25:16Z",
+  "generated_at": "2026-11-15T18:10:59Z",
   "generations": [
+    {
+      "id": "amethyst-6.0",
+      "gem_name": "Amethyst",
+      "version": "6.0",
+      "tagline": "Better at telling types of problem apart",
+      "requires_full_model_access": true,
+      "cascade_manifest_name": "routes_v17",
+      "pack": {
+        "content_version": "vf02081d55853",
+        "inherits_bundle_fallback": true,
+        "files": [
+          {
+            "path": "models/vit_manifest.json",
+            "role": "multihead_manifest",
+            "priority": 0,
+            "bytes": 105090,
+            "sha256": "145cc7490b5ffc284c0790a2310c73a51c0f0a34e1bd7d6ed4e0dd9e4cabf2e2",
+            "object_key": "models/fixin/blobs/sha256/145cc7490b5ffc284c0790a2310c73a51c0f0a34e1bd7d6ed4e0dd9e4cabf2e2"
+          },
+          {
+            "path": "models/vit_multihead.tflite",
+            "role": "model",
+            "priority": 1,
+            "bytes": 47681845,
+            "sha256": "bcae2f69a7f299f90bef3702e19d3fc1a902f4fd989d47346444d90047d259b4",
+            "object_key": "models/fixin/blobs/sha256/bcae2f69a7f299f90bef3702e19d3fc1a902f4fd989d47346444d90047d259b4"
+          },
+          {
+            "path": "routes_v17.json",
+            "role": "cascade_manifest",
+            "priority": 0,
+            "bytes": 15949,
+            "sha256": "a2d67a8b241bfd9e49ebcc6edc06e3adb31f725240ce814be5acdabf3dd04110",
+            "object_key": "models/fixin/blobs/sha256/a2d67a8b241bfd9e49ebcc6edc06e3adb31f725240ce814be5acdabf3dd04110"
+          }
+        ]
+      },
+      "availability": "admin_only",
+      "tint_hex": "#8E44AD",
+      "multi_head_manifest_name": "vit_manifest",
+      "min_app_version": "1.5.7"
+    },
     {
       "id": "emerald-5.3",
       "gem_name": "Emerald",

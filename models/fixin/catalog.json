@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T15:13:12Z",
+  "generated_at": "2026-11-16T16:02:34Z",
   "generations": [
     {
       "id": "amethyst-6.0",
@@ -10,7 +10,7 @@
       "requires_full_model_access": true,
       "cascade_manifest_name": "manifest_v15",
       "pack": {
-        "content_version": "v15eb0da7e37c",
+        "content_version": "vb16b4414b09d",
         "inherits_bundle_fallback": true,
         "files": [
           {
@@ -18,16 +18,16 @@
             "role": "model_part",
             "priority": 0,
             "bytes": 4096,
-            "sha256": "62f35946c0a63ae2fab5da0e7b01739954f392fa94dd05b69c0c0463ebeb94d3",
-            "object_key": "models/fixin/blobs/sha256/62f35946c0a63ae2fab5da0e7b01739954f392fa94dd05b69c0c0463ebeb94d3"
+            "sha256": "ca575f4d23b783e974a44b3f7f290bb247519c49e4f71f5b249853e3ac4cb7a7",
+            "object_key": "models/fixin/blobs/sha256/ca575f4d23b783e974a44b3f7f290bb247519c49e4f71f5b249853e3ac4cb7a7"
           },
           {
             "path": "Amethyst_60.mlmodelc/coremldata.bin",
             "role": "model_part",
             "priority": 0,
             "bytes": 8192,
-            "sha256": "b07f2dfaa5df65e098c98ac130c7263a7be772950b1a7b2f822df9285d37fb38",
-            "object_key": "models/fixin/blobs/sha256/b07f2dfaa5df65e098c98ac130c7263a7be772950b1a7b2f822df9285d37fb38"
+            "sha256": "bf39562a536d834627629ff62cd2de471bba35d907381b6357a1ebfca3450b31",
+            "object_key": "models/fixin/blobs/sha256/bf39562a536d834627629ff62cd2de471bba35d907381b6357a1ebfca3450b31"
           },
           {
             "path": "Amethyst_60.mlmodelc/encryptionInfo/coremldata.bin",
@@ -57,9 +57,9 @@
             "path": "manifest_amethyst_60.json",
             "role": "multihead_manifest",
             "priority": 0,
-            "bytes": 93209,
-            "sha256": "6c0c2d2189757121bf7bf35064a1e228f058e14b3c124fbbb30a4ee8eb2bc5be",
-            "object_key": "models/fixin/blobs/sha256/6c0c2d2189757121bf7bf35064a1e228f058e14b3c124fbbb30a4ee8eb2bc5be"
+            "bytes": 103770,
+            "sha256": "a14a36806f2516490fa48850dff02d500d2d3d2a120a42fe146396dd36ec2790",
+            "object_key": "models/fixin/blobs/sha256/a14a36806f2516490fa48850dff02d500d2d3d2a120a42fe146396dd36ec2790"
           }
         ]
       },

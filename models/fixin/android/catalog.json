@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T15:13:26Z",
+  "generated_at": "2026-11-16T16:02:59Z",
   "generations": [
     {
       "id": "amethyst-6.0",
@@ -10,16 +10,16 @@
       "requires_full_model_access": true,
       "cascade_manifest_name": "routes_v17",
       "pack": {
-        "content_version": "v9e3992f7a242",
+        "content_version": "v66704afd46a1",
         "inherits_bundle_fallback": true,
         "files": [
           {
             "path": "models/vit_manifest.json",
             "role": "multihead_manifest",
             "priority": 0,
-            "bytes": 105087,
-            "sha256": "3326c88c948872c8f8053faf0dfbf58d9d66de9d1adbf4b827b58d46a9720da2",
-            "object_key": "models/fixin/blobs/sha256/3326c88c948872c8f8053faf0dfbf58d9d66de9d1adbf4b827b58d46a9720da2"
+            "bytes": 111322,
+            "sha256": "9eb44b12da30b24a94265141f666e8f7f571a4c111899ccb2fcd330eef69b55b",
+            "object_key": "models/fixin/blobs/sha256/9eb44b12da30b24a94265141f666e8f7f571a4c111899ccb2fcd330eef69b55b"
           },
           {
             "path": "models/vit_multihead.tflite",

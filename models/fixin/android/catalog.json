@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T18:10:59Z",
+  "generated_at": "2026-11-16T15:13:26Z",
   "generations": [
     {
       "id": "amethyst-6.0",
@@ -10,24 +10,24 @@
       "requires_full_model_access": true,
       "cascade_manifest_name": "routes_v17",
       "pack": {
-        "content_version": "vf02081d55853",
+        "content_version": "v9e3992f7a242",
         "inherits_bundle_fallback": true,
         "files": [
           {
             "path": "models/vit_manifest.json",
             "role": "multihead_manifest",
             "priority": 0,
-            "bytes": 105090,
-            "sha256": "145cc7490b5ffc284c0790a2310c73a51c0f0a34e1bd7d6ed4e0dd9e4cabf2e2",
-            "object_key": "models/fixin/blobs/sha256/145cc7490b5ffc284c0790a2310c73a51c0f0a34e1bd7d6ed4e0dd9e4cabf2e2"
+            "bytes": 105087,
+            "sha256": "3326c88c948872c8f8053faf0dfbf58d9d66de9d1adbf4b827b58d46a9720da2",
+            "object_key": "models/fixin/blobs/sha256/3326c88c948872c8f8053faf0dfbf58d9d66de9d1adbf4b827b58d46a9720da2"
           },
           {
             "path": "models/vit_multihead.tflite",
             "role": "model",
             "priority": 1,
             "bytes": 47681845,
-            "sha256": "bcae2f69a7f299f90bef3702e19d3fc1a902f4fd989d47346444d90047d259b4",
-            "object_key": "models/fixin/blobs/sha256/bcae2f69a7f299f90bef3702e19d3fc1a902f4fd989d47346444d90047d259b4"
+            "sha256": "a2ebbd814a38a9594a268bfd3871edd4bec25768bc69f8c1f63f14ef3e568e5c",
+            "object_key": "models/fixin/blobs/sha256/a2ebbd814a38a9594a268bfd3871edd4bec25768bc69f8c1f63f14ef3e568e5c"
           },
           {
             "path": "routes_v17.json",

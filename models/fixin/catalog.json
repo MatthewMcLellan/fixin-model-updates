@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T16:02:34Z",
+  "generated_at": "2026-11-25T06:11:37Z",
   "generations": [
     {
       "id": "amethyst-6.0",
@@ -64,7 +64,7 @@
         ]
       },
       "tint_hex": "#8E44AD",
-      "availability": "admin_only",
+      "availability": "sapphire_plans",
       "multi_head_manifest_name": "manifest_amethyst_60",
       "min_app_version": "1.5.7"
     },

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T16:02:59Z",
+  "generated_at": "2026-11-25T05:59:03Z",
   "generations": [
     {
       "id": "amethyst-6.0",
@@ -39,7 +39,7 @@
           }
         ]
       },
-      "availability": "admin_only",
+      "availability": "sapphire_plans",
       "tint_hex": "#8E44AD",
       "multi_head_manifest_name": "vit_manifest",
       "min_app_version": "1.5.7"
